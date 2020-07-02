@@ -1,0 +1,13 @@
+.osc-speed-switch
+{
+    position: absolute;
+    top: 7px;
+    left: 50px;
+    padding: 10px;
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
