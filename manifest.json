@@ -10,7 +10,7 @@
   },
   "web_accessible_resources": ["jQuery.min.js", "customSpeed.js"],
   "content_scripts": [{
-    "matches": ["https://video.uni-frankfurt.de/Mediasite/Play/*"],
+    "matches": ["https://*.uni-frankfurt.de/Mediasite/Play/*"],
     "js": ["jQuery.min.js", "customSpeed.js"],
     "css": ["style.css"],
     "run_at": "document_end"
